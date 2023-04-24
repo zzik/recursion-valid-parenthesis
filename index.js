@@ -26,15 +26,6 @@ var isValid = function (s) {
   return recurse()
 }
 
-const test = "()[]{}"
-const test2 = "(){}}{"
-const test3 = ")]}"
-const test4 = "(]"
-const test5 = "[((()))]"
-const test6 = "{[]}"
-const test7 = "()"
-const test8 = "([)]"
-const test9 = "([])"
-const screen = isValid(test9)
+const screen = isValid("()[]{}")
 
 console.log({ result: screen })
